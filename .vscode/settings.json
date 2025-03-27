@@ -1,0 +1,13 @@
+{
+  "python.testing.pytestArgs": [
+    "runner/mount",
+    "--browser=firefox",
+    "--headed",
+    "--html=playwright-report.html",
+    "--self-contained-html"
+  ],
+  "python.testing.unittestEnabled": false,
+  "python.testing.pytestEnabled": true,
+  "python.testing.pytestPath": "/usr/local/bin/pytest",
+  "peacock.remoteColor": "#007fff"
+}
